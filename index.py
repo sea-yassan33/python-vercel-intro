@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
 import os
-from dotenv import load_dotenv
 
 app = Flask(__name__)
 # UTF-8に変換（日本語をJSONで返す場合は必要）
@@ -10,6 +9,7 @@ app.config["JSON_AS_ASCII"] = False
 CORS(app)
 
 # ローカル環境の場合、.envファイルから環境変数をロード
+# from dotenv import load_dotenv
 # if os.getenv('FLASK_ENV') == 'development':
 #     load_dotenv()
 
