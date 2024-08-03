@@ -7,3 +7,7 @@
 |-- requirements.txt
 |-- vercel.json
 ```
+
+### GitHubリポジトリにアップロード
+
+### アップロードしたリポジトリをvercelにデプロイ
