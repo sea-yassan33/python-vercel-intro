@@ -10,8 +10,8 @@ app.config["JSON_AS_ASCII"] = False
 CORS(app)
 
 # ローカル環境の場合、.envファイルから環境変数をロード
-if os.getenv('FLASK_ENV') == 'development':
-    load_dotenv()
+# if os.getenv('FLASK_ENV') == 'development':
+#     load_dotenv()
 
 env_integer = os.getenv('TEST_STRING')
 
